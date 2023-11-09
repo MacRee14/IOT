@@ -13,9 +13,8 @@ import java.util.Date;
 @Setter
 public class Scanners {
 
-    public Integer id;
-    public Integer idStrada;
-    public LocalDateTime dataOra;
-    public Integer traffico;
-
+    private Integer id;
+    private Integer idStrada;
+    private LocalDateTime dataOra;
+    private Integer traffico;
 }
